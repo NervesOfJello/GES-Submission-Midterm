@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 11/6/2017 4:52:18 PM-->
+<Tiled2Unity version="1.0.13.0">
+  <AssignMaterial mesh="Medium-Platform_mesh_0001" material="ForestSheet" />
+  <Prefab name="Medium Platform" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="1" numTilesWide="3" numTilesHigh="1" tileWidth="16" tileHeight="16" exportScale="0.0625" mapWidthInPixels="48" mapHeightInPixels="16" backgroundColor="#808080">
+    <GameObject name="Tile Layer 1" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="ForestSheet" x="0" y="0" mesh="Medium-Platform_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>0,-1 3,-1 3,0 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="Medium-Platform_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ01lZGl1bS1QbGF0Zm9ybV9tZXNoXzAwMDEub2JqJw0KDQojIFZlcnRpY2VzIChDb3VudCA9IDEyKQ0KdiAwIC0xIDANCnYgLTEgLTEgMA0KdiAtMSAwIDANCnYgMCAwIDANCnYgLTEgLTEgMA0KdiAtMiAtMSAwDQp2IC0yIDAgMA0KdiAtMSAwIDANCnYgLTIgLTEgMA0KdiAtMyAtMSAwDQp2IC0zIDAgMA0KdiAtMiAwIDANCg0KIyBUZXh0dXJlIGNvb3JpZGluYXRlcyAoQ291bnQgPSA4KQ0KdnQgMC40NzA1ODgyIDAuNQ0KdnQgMC41Mjk0MTE4IDAuNQ0KdnQgMC41Mjk0MTE4IDAuNjI1DQp2dCAwLjQ3MDU4ODIgMC42MjUNCnZ0IDAuNTI5NDExOCAwLjc1DQp2dCAwLjQ3MDU4ODIgMC43NQ0KdnQgMC41ODgyMzUzIDAuNQ0KdnQgMC41ODgyMzUzIDAuNjI1DQoNCiMgTm9ybWFsDQp2biAwIDAgLTENCg0KIyBNZXNoIGRlc2NyaXB0aW9uDQpnIE1lZGl1bS1QbGF0Zm9ybV9tZXNoXzAwMDENCg0KIyBGYWNlcw0KZiAxLzEvMSAyLzIvMSAzLzMvMSA0LzQvMQpmIDUvNC8xIDYvMy8xIDcvNS8xIDgvNi8xCmYgOS8yLzEgMTAvNy8xIDExLzgvMSAxMi8zLzEKDQo=</ImportMesh>
+  <InternalTexture assetPath="Assets/Sprites and Textures/SpriteSheets/ForestSheet.png" materialName="ForestSheet" />
+</Tiled2Unity>

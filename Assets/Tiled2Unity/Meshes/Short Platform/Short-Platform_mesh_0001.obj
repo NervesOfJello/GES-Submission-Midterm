@@ -1,0 +1,31 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'Short-Platform_mesh_0001.obj'
+
+# Vertices (Count = 8)
+v 0 -1 0
+v -1 -1 0
+v -1 0 0
+v 0 0 0
+v -1 -1 0
+v -2 -1 0
+v -2 0 0
+v -1 0 0
+
+# Texture cooridinates (Count = 6)
+vt 0.4705882 0.5
+vt 0.5294118 0.5
+vt 0.5294118 0.625
+vt 0.4705882 0.625
+vt 0.5882353 0.5
+vt 0.5882353 0.625
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g Short-Platform_mesh_0001
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+f 5/2/1 6/5/1 7/6/1 8/3/1
+

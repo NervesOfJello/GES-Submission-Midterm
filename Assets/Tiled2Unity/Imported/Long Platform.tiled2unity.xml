@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 11/6/2017 1:33:00 PM-->
+<Tiled2Unity version="1.0.12.4">
+  <AssignMaterial mesh="Long-Platform_mesh_0001" material="ForestSheet" />
+  <Prefab name="Long Platform" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="1" numTilesWide="4" numTilesHigh="1" tileWidth="16" tileHeight="16" exportScale="0.0625" mapWidthInPixels="64" mapHeightInPixels="16" backgroundColor="#808080">
+    <GameObject name="Tile Layer 1" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="ForestSheet" mesh="Long-Platform_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>4,0 0,0 0,-1 4,-1</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="Long-Platform_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ0xvbmctUGxhdGZvcm1fbWVzaF8wMDAxLm9iaicNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSAxNikNCnYgMCAtMSAwDQp2IC0xIC0xIDANCnYgLTEgMCAwDQp2IDAgMCAwDQp2IC0xIC0xIDANCnYgLTIgLTEgMA0KdiAtMiAwIDANCnYgLTEgMCAwDQp2IC0yIC0xIDANCnYgLTMgLTEgMA0KdiAtMyAwIDANCnYgLTIgMCAwDQp2IC0zIC0xIDANCnYgLTQgLTEgMA0KdiAtNCAwIDANCnYgLTMgMCAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gOCkNCnZ0IDAuNDcwNTg4MiAwLjUNCnZ0IDAuNTI5NDExOCAwLjUNCnZ0IDAuNTI5NDExOCAwLjYyNQ0KdnQgMC40NzA1ODgyIDAuNjI1DQp2dCAwLjUyOTQxMTggMC43NQ0KdnQgMC40NzA1ODgyIDAuNzUNCnZ0IDAuNTg4MjM1MyAwLjUNCnZ0IDAuNTg4MjM1MyAwLjYyNQ0KDQojIE5vcm1hbA0Kdm4gMCAwIC0xDQoNCiMgTWVzaCBkZXNjcmlwdGlvbg0KZyBMb25nLVBsYXRmb3JtX21lc2hfMDAwMQ0KDQojIEZhY2VzDQpmIDEvMS8xIDIvMi8xIDMvMy8xIDQvNC8xCmYgNS80LzEgNi8zLzEgNy81LzEgOC82LzEKZiA5LzQvMSAxMC8zLzEgMTEvNS8xIDEyLzYvMQpmIDEzLzIvMSAxNC83LzEgMTUvOC8xIDE2LzMvMQoNCg==</ImportMesh>
+  <InternalTexture assetPath="Assets/Sprites and Textures/SpriteSheets/ForestSheet.png" materialName="ForestSheet" />
+</Tiled2Unity>

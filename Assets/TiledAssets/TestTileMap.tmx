@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.09.27" orientation="orthogonal" renderorder="right-down" width="14" height="2" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="ForestTileset.tsx"/>
+ <layer name="Tile Layer 1" width="14" height="2">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,80,81,82,0,0,
+81,81,81,81,81,81,81,81,81,98,98,98,81,81
+</data>
+ </layer>
+</map>

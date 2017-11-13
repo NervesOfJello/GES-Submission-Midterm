@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4463552271346078}
   - component: {fileID: 114405178250679626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4033052618141960}
   - component: {fileID: 114007406049637054}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: JetpackLevel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4698211734262548}
   - component: {fileID: 114228129565256862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4223274647882750}
   - component: {fileID: 114748123714681612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4188104676378048}
   - component: {fileID: 114093082799093168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LevelLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1289184707288136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -22, y: 36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4223274647882750}

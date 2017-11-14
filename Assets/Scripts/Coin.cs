@@ -6,6 +6,11 @@ using UnityEngine.UI;
 public class Coin : MonoBehaviour {
 
     static int coinCount = 0;
+    static public bool coinsMaxed = false;
+    static int coinsLeft = 0;
+
+    [SerializeField]
+    static int levelCoinMax = 10;
 
     [SerializeField]
     float refuelAmount = 25;
@@ -26,6 +31,11 @@ public class Coin : MonoBehaviour {
 
         //get the CoinText object and set it as our text variable
         coinCountText = GameObject.Find("CoinText").GetComponent<Text>();
+
+        //set initial coin text
+        coinsLeft = (levelCoinMax - coinCount);
+
+        coinCountText.text = "Coins: " + coinCount;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -38,11 +48,17 @@ public class Coin : MonoBehaviour {
 
             PlayerMovement.jetpackFuel += refuelAmount;
 
+            coinsLeft = (levelCoinMax - coinCount);
+
             coinCountText.text = "Coins: " + coinCount;
 
             spriteRenderer.enabled = false;
             boxCollider2D.enabled = false;
 
+            if (coinsLeft <= 0)
+            {
+                coinsMaxed = true;
+            }
             //Destroy(this.gameObject);
         }
     }

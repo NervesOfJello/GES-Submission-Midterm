@@ -99,8 +99,8 @@ public class PlayerMovement : MonoBehaviour {
     {
         if(isOnGround && jetpackFuel < fuelMaximum)
         {
-            jetpackFuel += 1;
-            Debug.Log("Fuel Remaining: " + jetpackFuel);
+            jetpackFuel += 2;
+            //Debug.Log("Fuel Remaining: " + jetpackFuel);
         }
     }
     //make sure you can't refuel past the maximum
@@ -120,7 +120,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         if (Input.GetAxis("Jetpack") > 0 && jetpackFuel > 0)
         {
-            Debug.Log("Fuel Remaining: " + jetpackFuel);
+            //Debug.Log("Fuel Remaining: " + jetpackFuel);
             jetpackFuel -= 1;
         }
 

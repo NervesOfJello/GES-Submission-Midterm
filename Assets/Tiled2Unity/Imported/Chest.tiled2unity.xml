@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 11/18/2017 2:20:20 PM-->
+<Tiled2Unity version="1.0.12.4">
+  <AssignMaterial mesh="Chest_mesh_0001" material="ForestSheet" />
+  <Prefab name="Chest" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="1" numTilesWide="1" numTilesHigh="1" tileWidth="16" tileHeight="16" exportScale="0.0625" mapWidthInPixels="16" mapHeightInPixels="16" backgroundColor="#808080">
+    <GameObject name="Tile Layer 1" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="ForestSheet" mesh="Chest_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="Chest_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ0NoZXN0X21lc2hfMDAwMS5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gNCkNCnYgMCAtMSAwDQp2IC0xIC0xIDANCnYgLTEgMCAwDQp2IDAgMCAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gNCkNCnZ0IDAuOTQxMTc2NSAwLjM3NQ0KdnQgMSAwLjM3NQ0KdnQgMSAwLjUNCnZ0IDAuOTQxMTc2NSAwLjUNCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgQ2hlc3RfbWVzaF8wMDAxDQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKDQo=</ImportMesh>
+  <InternalTexture assetPath="Assets/Sprites and Textures/SpriteSheets/ForestSheet.png" materialName="ForestSheet" />
+</Tiled2Unity>

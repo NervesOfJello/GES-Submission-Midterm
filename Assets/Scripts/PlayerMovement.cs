@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour {
 
     //input booleans
     private bool isOnGround;
+    private bool facingRight = true;
 
     //checking input in update booleans to transfer to FixedUpdate
     private bool canJump;
@@ -43,6 +44,7 @@ public class PlayerMovement : MonoBehaviour {
     //component variables
     Rigidbody2D myRigidBody;
     AudioSource audioSource;
+    Animator anim;
 
     //UI variables
     private Text fuelText;
@@ -59,6 +61,7 @@ public class PlayerMovement : MonoBehaviour {
         //initialize component variables
         myRigidBody = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();
 
         fuelText = GameObject.Find("FuelText").GetComponent<Text>();
 
@@ -80,8 +83,30 @@ public class PlayerMovement : MonoBehaviour {
         GetJumpInput();
         GetJetpackInput();
 
+        ManageAnimatorVariables();
         
 
+    }
+
+    private void ManageAnimatorVariables() //pass in local variables to the animator to manage the sprites
+
+    {
+        anim.SetFloat("vSpeed", myRigidBody.velocity.y);
+        anim.SetBool("Ground", isOnGround);
+        anim.SetFloat("Speed", Mathf.Abs(myRigidBody.velocity.x));
+
+        if (myRigidBody.velocity.x > 0 && !facingRight)
+            Flip();
+        else if (myRigidBody.velocity.x < 0 && facingRight)
+            Flip();
+    }
+
+    private void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 
     //uses time.DeltaTime by default

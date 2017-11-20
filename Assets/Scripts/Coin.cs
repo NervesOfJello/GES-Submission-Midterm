@@ -8,6 +8,10 @@ public class Coin : MonoBehaviour {
     static int coinCount = 0;
     static public bool coinsMaxed = false;
     static int coinsLeft = 0;
+    private float rotateAmount = 0;
+
+    [SerializeField]
+    private float deltaRotation = 1;
 
     [SerializeField]
     static int levelCoinMax = 10;
@@ -21,6 +25,7 @@ public class Coin : MonoBehaviour {
     private AudioSource audioSource;
     private SpriteRenderer spriteRenderer;
     private BoxCollider2D boxCollider2D;
+    private Transform transform;
 
     private void Start()
     {
@@ -28,6 +33,7 @@ public class Coin : MonoBehaviour {
         audioSource = GetComponent<AudioSource>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         boxCollider2D = GetComponent<BoxCollider2D>();
+        transform = GetComponent<Transform>();
 
         //get the CoinText object and set it as our text variable
         coinCountText = GameObject.Find("CoinText").GetComponent<Text>();
@@ -36,6 +42,11 @@ public class Coin : MonoBehaviour {
         coinsLeft = (levelCoinMax - coinCount);
 
         coinCountText.text = "Coins: " + coinCount;
+    }
+
+    private void Update()
+    {
+        transform.Rotate(new Vector3(0, deltaRotation, 0));
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

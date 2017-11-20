@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 11/18/2017 2:14:11 PM-->
+<Tiled2Unity version="1.0.12.4">
+  <AssignMaterial mesh="Spikes_mesh_0001" material="ForestSheet" />
+  <Prefab name="Spikes" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="1" numTilesWide="2" numTilesHigh="1" tileWidth="16" tileHeight="16" exportScale="0.0625" mapWidthInPixels="32" mapHeightInPixels="16" backgroundColor="#808080">
+    <GameObject name="Tile Layer 1" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="ForestSheet" mesh="Spikes_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="Spikes_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ1NwaWtlc19tZXNoXzAwMDEub2JqJw0KDQojIFZlcnRpY2VzIChDb3VudCA9IDgpDQp2IDAgLTEgMA0KdiAtMSAtMSAwDQp2IC0xIDAgMA0KdiAwIDAgMA0KdiAtMSAtMSAwDQp2IC0yIC0xIDANCnYgLTIgMCAwDQp2IC0xIDAgMA0KDQojIFRleHR1cmUgY29vcmlkaW5hdGVzIChDb3VudCA9IDQpDQp2dCAwLjk0MTE3NjUgMA0KdnQgMSAwDQp2dCAxIDAuMTI1DQp2dCAwLjk0MTE3NjUgMC4xMjUNCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgU3Bpa2VzX21lc2hfMDAwMQ0KDQojIEZhY2VzDQpmIDEvMS8xIDIvMi8xIDMvMy8xIDQvNC8xCmYgNS8xLzEgNi8yLzEgNy8zLzEgOC80LzEKDQo=</ImportMesh>
+  <InternalTexture assetPath="Assets/Sprites and Textures/SpriteSheets/ForestSheet.png" materialName="ForestSheet" />
+</Tiled2Unity>

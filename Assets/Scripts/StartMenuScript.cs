@@ -12,6 +12,10 @@ public class StartMenuScript : MonoBehaviour {
 
     public void CreditsButtonClick()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("StartMenu 1");
+    }
+    public void BackButtonClick()
+    {
+        SceneManager.LoadScene("StartMenu");
     }
 }

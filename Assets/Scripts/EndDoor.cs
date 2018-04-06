@@ -9,10 +9,7 @@ public class EndDoor : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
-            if (Input.GetButtonDown("Jetpack"))
-            {
                 SceneManager.LoadScene("EndScene");
-            }
         }
     }
 }

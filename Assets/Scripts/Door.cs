@@ -9,10 +9,7 @@ public class Door : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
-            if (Input.GetButtonDown("Jetpack"))
-            {
                 SceneManager.LoadScene("Level 2");
-            }
         }
     }
 }

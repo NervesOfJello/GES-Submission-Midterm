@@ -18,4 +18,8 @@ public class StartMenuScript : MonoBehaviour {
     {
         SceneManager.LoadScene("StartMenu");
     }
+    public void ExitButtonClick()
+    {
+        Application.Quit();
+    }
 }
